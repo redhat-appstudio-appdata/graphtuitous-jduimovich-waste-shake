@@ -3,6 +3,7 @@ bases:
 - components/fib-go/base
 - components/fib-node/base
 - components/frontend/base
+- components/haproxy/base
 kind: Kustomization
 resources:
 - common-storage-pvc.yaml
